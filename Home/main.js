@@ -2,8 +2,8 @@ let counter = 0;
 let timer;
 
 let playlist = [{name:"slide1", source:"slide1/index.html",time:"5"},
-                {name:"slide2", source:"slide2/index.html",time:"5"},
-                {name:"slide3", source:"slide3/index.html",time:"5"},
+                {name:"slide2", source:"slide2/index.html",time:"15"},
+                {name:"slide3", source:"slide3/index.html",time:"15"},
               ]
 
 function init(){

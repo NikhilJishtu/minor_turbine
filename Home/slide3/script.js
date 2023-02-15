@@ -16,6 +16,7 @@ $(document).ready(()=>{
 
 		let count = urls.length-1;
 		const get =(real)=>{
+            console.log(urls)
 			$.getJSON(urls[ count ], function(data) {
 				console.log("JSON data has been retrieved from " + data.source);
 				let news = data.articles; //get only the news articles
