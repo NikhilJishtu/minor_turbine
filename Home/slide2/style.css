@@ -9,6 +9,12 @@
         padding: 0;
       }
 
+      .logo-container img {
+        position: absolute;
+        padding-left: 20px;
+        width: 200px;
+      }
+
       .container {
         width: 90%;
         margin: 0 auto;
@@ -19,22 +25,31 @@
         font-weight: 300;
         font-size: 50px;
         text-align: center;
+        text-shadow: 11px 11px 9px rgb(0 0 0);
       }
 
       .event-list {
         list-style: none;
         margin: 0;
         padding: 0;
+        
+        
       }
 
+
       .event {
-        background-color: #0b0b0b;
+        background: url('../images/concert2.jpg') no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
         margin-bottom: 20px;
         display: flex;
+        box-shadow: 8px 8px 8px 0px rgb(0, 0, 0);
       }
 
       .event .date {
-        background-color: #4b4b4b;
+        border-right: 2px solid rgb(240, 148, 0);
         flex: 0 0 10%;
         display: flex;
         flex-direction: column;
@@ -47,6 +62,7 @@
         font-size: 40px;
         font-weight: 300;
         margin-bottom: 5px;
+
       }
 
       .event .date .month {
@@ -68,7 +84,7 @@
       .event .info .title {
         color: #f5f5f5;
         font-weight: 300;
-        font-size: 28px;
+        font-size: 30px;
         margin-bottom: 10px;
       }
 
