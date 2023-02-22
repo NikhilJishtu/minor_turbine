@@ -66,7 +66,6 @@ $(document).ready(()=>{
 						<div class="caption">
 							<h2> ${res[i].title} </h2>
 							<h4> ${res[i].description} </h4>
-							<p><a href="${link}" target="_blank" class="btn btn-primary" role="button">View Article</a> </p>
 						</div>
 					</div>
 				</div>	`

@@ -1,0 +1,66 @@
+body {
+    font-size: 1.4rem;
+    transition: all 300ms ease;
+    font-family: 'Satoshi', sans-serif;
+    background-color: rgb(23, 23, 23);
+    text-align: center;
+}
+body.day {
+    color: white;
+    background-color: #fff;
+    background-color: rgb(23, 23, 23);
+    text-align: center;
+
+}
+body.night {
+    color: white;
+    background-color: rgb(23, 23, 23);
+
+    text-align: center;
+
+}
+
+p {
+    color: #ffffff;
+}
+
+h3 {
+    font-size: 80px;
+    padding-top: 30px;
+}
+
+
+.location {
+    font-size: 1.6rem;
+    line-height: 1.8;
+}
+.location span {
+    text-transform: uppercase;
+}
+
+.weather-data {
+    font-size: 5rem;
+}
+.weather-data i {
+    display: block;
+    margin: 20px;
+    font-size: 10rem;
+}
+.weather-data > div {
+    color: white;
+
+    text-transform: uppercase;
+}
+.weather-data > div > span {
+    display: block;
+    font-size: 20px;
+}
+
+.degrees {
+    font-size: 8rem;
+    color: white;
+}
+
+.switcher {
+    display: none;
+}
