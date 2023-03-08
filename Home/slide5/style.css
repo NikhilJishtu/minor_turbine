@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Satoshi', sans-serif;
+  margin: 0;
+  line-height: 1.5;
+  font-size: 1rem;
+  background-color: #222;
+  color: white;
+  text-shadow: 11px 11px 9px rgb(0 0 0);
+}
+
+.col-50,
+.col-90 {
+  width: 100%;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.mt-1{
+  margin-top: 1rem;
+}
+
+.mb-2{
+  margin-bottom: 2rem;
+}
+
+@media screen and (min-width: 768px) {
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .col-50 {
+    flex-basis: 50%;
+  }
+}
+
+/*remove block and see change at bottom*/
+img {
+  display: block;
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
+
+article {
+  padding: 0 1.5rem;
+}
+
+h1 {
+  font-size: 70px;
+  letter-spacing: 0.2rem;
+  margin-bottom: 100px;
+}
+
+p{
+  line-height: 1.6;
+  font-size: 30px;
+}
